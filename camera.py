@@ -11,7 +11,7 @@ while True:
   ret, frame = cap.read()
   cv2.imshow('Image', frame)
   
-  if cv2.waitKey(1) & 0xFF == ord('q'):  #push 'q' to exit
-    cv2.imwrite('C:/Users/Admin/Documents/pythonVisualcode/image.jpg',frame)
+  if cv2.waitKey(1) & 0xFF == ord('q'):  #push 'q' to exit 
+    cv2.imwrite('C:/Users/Admin/Documents/pythonVisualcode/image.jpg',frame) #print image 
     break
      
